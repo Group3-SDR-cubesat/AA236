@@ -1,7 +1,7 @@
 # AA236
 Associated Files for AA236A CubeSat Design Project
 
-## Setting up Git
+## Setting up Git!
 You can download the latest version of Git for Mac or Linux [here](https://git-scm.com/downloads)
 Windows CMD can be annoying to use if you are used to command line Linux. If you are using Windows, download Git from [here](https://gitforwindows.org/)
 This comes with Git Bash, a terminal that I use, and recommend that you use too!
