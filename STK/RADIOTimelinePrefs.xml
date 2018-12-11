@@ -1,0 +1,38 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.5.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "RADIO AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/RADIO" Type = "IntervalList">
+                <Interval Name = "RADIO AvailabilityIntervals" StartTime = "4 Dec 2018 20:00:00.000" StopTime = "11 Dec 2018 20:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/RADIO/Place/KSAT_GS_LA/Sensor/GSView;/Application/STK/Scenario/RADIO/Satellite/RADIO" Type = "IntervalList">
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "4 Dec 2018 21:11:22.854" StopTime = "4 Dec 2018 21:16:41.457" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "4 Dec 2018 22:47:33.666" StopTime = "4 Dec 2018 22:51:19.206" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "5 Dec 2018 05:12:32.444" StopTime = "5 Dec 2018 05:18:01.588" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "5 Dec 2018 21:37:49.717" StopTime = "5 Dec 2018 21:43:34.902" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "6 Dec 2018 04:05:09.651" StopTime = "6 Dec 2018 04:07:48.929" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "6 Dec 2018 05:39:18.621" StopTime = "6 Dec 2018 05:44:38.807" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "6 Dec 2018 20:30:55.182" StopTime = "6 Dec 2018 20:33:50.816" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "6 Dec 2018 22:04:48.839" StopTime = "6 Dec 2018 22:10:07.313" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "7 Dec 2018 04:31:04.319" StopTime = "7 Dec 2018 04:35:42.612" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "7 Dec 2018 06:06:36.474" StopTime = "7 Dec 2018 06:10:33.807" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "7 Dec 2018 20:56:21.633" StopTime = "7 Dec 2018 21:01:33.347" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "7 Dec 2018 22:32:20.610" StopTime = "7 Dec 2018 22:36:19.075" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "8 Dec 2018 04:57:28.065" StopTime = "8 Dec 2018 05:02:55.010" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "8 Dec 2018 21:22:44.518" StopTime = "8 Dec 2018 21:28:29.623" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "9 Dec 2018 03:50:13.838" StopTime = "9 Dec 2018 03:52:31.042" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "9 Dec 2018 05:24:11.859" StopTime = "9 Dec 2018 05:29:35.808" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "9 Dec 2018 20:16:06.914" StopTime = "9 Dec 2018 20:18:30.914" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "9 Dec 2018 21:49:40.369" StopTime = "9 Dec 2018 21:55:04.056" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "10 Dec 2018 04:16:02.399" StopTime = "10 Dec 2018 04:20:32.155" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "10 Dec 2018 05:51:24.836" StopTime = "10 Dec 2018 05:55:36.767" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "10 Dec 2018 20:41:20.971" StopTime = "10 Dec 2018 20:46:24.801" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "10 Dec 2018 22:17:08.160" StopTime = "10 Dec 2018 22:21:18.483" />
+                <Interval Name = "Place-KSAT_GS-Sensor-GSView-To-Satellite-RADIO AccessIntervals" StartTime = "11 Dec 2018 04:42:23.910" StopTime = "11 Dec 2018 04:47:48.081" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/RADIO" GlobalStartOffset = "0.000000" GlobalStartTime = "4 Dec 2018 20:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "11 Dec 2018 20:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
