@@ -1,5 +1,5 @@
 VO_V110		
-Translucency		 0.4
+Translucency		 0.6
 IsShowingRadialLines		 No
 RadialLineIncr		 4
 IsShowingBoresight		 No
@@ -18,7 +18,7 @@ TranslucentLines		 No
 PersistSpaceProjLines		 No
 PersistPartialCBProjLines		 Yes
 UseConstExtensionLength		 No
-ExtensionLength		 1000000
+ExtensionLength		 400000
 UseSpaceExtLenTimeList		 No
 UseTgtExtLenTimeList		 No
 TargetExtensionLength		 0

@@ -3,13 +3,13 @@ WrittenBy    STK_v11.5.0
 
 BEGIN Sensor
 
-    Name		 GSView
+    Name		 GS_View
 
     BEGIN Pattern
 
         BEGIN SimpleCone
 
-            ConeAngle		  8.0000000000000000e+01
+            ConeAngle		  5.9999999999999993e+01
             AngularPatternResolution		  4.0000000000000000e+00
 
         END SimpleCone
@@ -86,6 +86,84 @@ BEGIN Sensor
         END Refraction
 
         BEGIN Crdn
+            BEGIN VECTOR
+                Type		 VECTOR_TOVECTOR
+                Name		 ISS_25544
+                Description		 Displacement vector to ISS_25544
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Destination		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                    RelativePath		 Satellite/ISS_25544
+                END POINT
+                LTDRefSystem		
+                BEGIN SYSTEM
+                    Type		 SYSTEM_LINKTO
+                    Name		 BarycenterICRF
+                    AbsolutePath		 CentralBody/Sun
+                END SYSTEM
+                Apparent		 No
+                TimeConvergence		  1.0000000000000000e-03
+                TimeSense		 Receive
+                IgnoreAberration		 No
+            END VECTOR
+            BEGIN VECTOR
+                Type		 VECTOR_TOVECTOR
+                Name		 RADIO
+                Description		 Displacement vector to RADIO
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Destination		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                    RelativePath		 Satellite/RADIO
+                END POINT
+                LTDRefSystem		
+                BEGIN SYSTEM
+                    Type		 SYSTEM_LINKTO
+                    Name		 BarycenterICRF
+                    AbsolutePath		 CentralBody/Sun
+                END SYSTEM
+                Apparent		 No
+                TimeConvergence		  1.0000000000000000e-03
+                TimeSense		 Receive
+                IgnoreAberration		 No
+            END VECTOR
+            BEGIN VECTOR
+                Type		 VECTOR_TOVECTOR
+                Name		 RADIO-AntennaFootprint
+                Description		 Displacement vector to RADIO-AntennaFootprint
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Destination		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                    RelativePath		 Satellite/RADIO/Sensor/AntennaFootprint
+                END POINT
+                LTDRefSystem		
+                BEGIN SYSTEM
+                    Type		 SYSTEM_LINKTO
+                    Name		 BarycenterICRF
+                    AbsolutePath		 CentralBody/Sun
+                END SYSTEM
+                Apparent		 No
+                TimeConvergence		  1.0000000000000000e-03
+                TimeSense		 Receive
+                IgnoreAberration		 No
+            END VECTOR
         END Crdn
 
         BEGIN Graphics
@@ -107,7 +185,7 @@ BEGIN Sensor
                 PersistenceIgnoreDefChg		 No
                 UpdatesDefnOften		 No
                 MinDisplayAltitude		  0.0000000000000000e+00
-                MaxDisplayAltitude		  1.2000000000000000e+07
+                MaxDisplayAltitude		  5.0000000000000000e+05
                 AltitudeIntersectSense		 InsideOut
                 ShowBothAltCrossings		 No
                 IntersectType		 CentralBody
@@ -149,7 +227,7 @@ BEGIN Sensor
                 BEGIN EVENTINTERVAL
                     BEGIN Interval
                         Start		 4 Dec 2018 20:00:00.000000000
-                        Stop		 5 Dec 2018 20:00:00.000000000
+                        Stop		 11 Dec 2018 20:00:00.000000000
                     END Interval
                     IntervalState		 Explicit
                 END EVENTINTERVAL

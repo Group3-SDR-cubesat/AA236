@@ -97,7 +97,7 @@ BEGIN Scenario
             BaseDir		 Install
             Style		 Access
             AGIViewer		 Yes
-            Instance		 Place/KSAT_GS_LA/Sensor/GSView
+            Instance		 Place/Stanford/Sensor/GS_View
             BEGIN InstanceList
                 Instance		 Satellite/RADIO
             END InstanceList
@@ -106,7 +106,101 @@ BEGIN Scenario
                     SectionNumber		 1
                     SectionType		 4
                     ShowIntervals		 No
-                    TimeType		 Availability
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"4 Dec 2018 20:00:00.000000000" "11 Dec 2018 20:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Interval
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 450
+            WindowRectTop		 287
+            WindowRectRight		 1889
+            WindowRectBottom		 777
+        END Report
+
+        BEGIN Report
+            Name		 AER
+            Type		 Report
+            BaseDir		 Install
+            Style		 AER
+            AGIViewer		 Yes
+            Instance		 Place/Stanford/Sensor/GS_View
+            BEGIN InstanceList
+                Instance		 Satellite/RADIO
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 2
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"4 Dec 2018 20:00:00.000000000" "11 Dec 2018 20:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Interval
+                    SamplingType		 FixedStep
+                    Step		 60
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 476
+            WindowRectTop		 313
+            WindowRectRight		 1915
+            WindowRectBottom		 803
+        END Report
+
+        BEGIN Report
+            Name		 Gaps
+            Type		 Report
+            BaseDir		 Install
+            Style		 Gaps
+            AGIViewer		 Yes
+            Instance		 Place/Stanford/Sensor/GS_View
+            BEGIN InstanceList
+                Instance		 Satellite/RADIO
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"4 Dec 2018 20:00:00.000000000" "11 Dec 2018 20:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Interval
                     SamplingType		 Default
                     TimeBound		 0
                 END Section
@@ -151,7 +245,7 @@ BEGIN Scenario
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 0
-            LaunchWindowStop		 0
+            LaunchWindowStop		 -518400
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -309,6 +403,77 @@ BEGIN Scenario
                     Style		 Swath Points
                 END Favorite
             END Class
+            BEGIN Class
+                Name		 Satellite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Solar Intensity
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Lighting Times
+                END Favorite
+            END Class
+            BEGIN Class
+                Name		 Access
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Gaps
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 AER
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Access
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 AOS
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 Access Detailed
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Access Configuration
+                END Favorite
+                BEGIN Favorite
+                    Type		 Graph
+                    BaseDir		 Install
+                    Style		 Elevation Angle
+                END Favorite
+                BEGIN Favorite
+                    Type		 Graph
+                    BaseDir		 Install
+                    Style		 Az El Polar
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Range Rate
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 LOS
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Access Detailed
+                END Favorite
+            END Class
         END ReportFavorites
 
         BEGIN ADFFileData
@@ -376,7 +541,7 @@ BEGIN Scenario
                 BEGIN Catalog Cities
                     BEGIN Criteria Name
                         Type		 Value
-                        Value		 singapore
+                        Value		 stanford
                     END Criteria
                 END Catalog
                 BEGIN Catalog Spacecraft
@@ -702,12 +867,6 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -1208,7 +1367,7 @@ BEGIN Scenario
                         PrimaryBody		 Earth
                         SecondaryBody		 Sun
                         CenterLatitude		 0
-                        CenterLongitude		 0
+                        CenterLongitude		 -80.63298843578798
                         ProjectionAltitude		 63621860
                         FieldOfView		 35
                         OrthoDisplayDistance		 20000000
@@ -1245,7 +1404,7 @@ BEGIN Scenario
                         BEGIN ZoomLocations
                             BEGIN ZoomLocation
                                 CenterLat		 0
-                                CenterLon		 0
+                                CenterLon		 -80.63298843578798
                                 ZoomWidth		 360
                                 ZoomHeight		 180
                             END ZoomLocation
@@ -1822,7 +1981,7 @@ BEGIN Scenario
 
         Class Place
 
-            KSAT_GS_LA		
+            Stanford		
 
         END Class
 
@@ -1839,12 +1998,12 @@ BEGIN Scenario
         Instance *
             *		
         END Instance
-        Instance Place/KSAT_GS_LA
-            Place/KSAT_GS_LA		
-            Place/KSAT_GS_LA/Sensor/GSView		
+        Instance Place/Stanford
+            Place/Stanford		
+            Place/Stanford/Sensor/GS_View		
         END Instance
-        Instance Place/KSAT_GS_LA/Sensor/GSView
-            Place/KSAT_GS_LA/Sensor/GSView		
+        Instance Place/Stanford/Sensor/GS_View
+            Place/Stanford/Sensor/GS_View		
         END Instance
         Instance Satellite/ISS_25544
             Satellite/ISS_25544		

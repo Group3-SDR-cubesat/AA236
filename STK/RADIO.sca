@@ -1,7 +1,7 @@
 stk.v.11.0
 WrittenBy    STK_v11.5.0
 BEGIN Access
-    Scenario/RADIO/Place/KSAT_GS_LA/Sensor/GSView
+    Scenario/RADIO/Place/Stanford/Sensor/GS_View
     Scenario/RADIO/Satellite/RADIO
 
     IsComputed		 Yes

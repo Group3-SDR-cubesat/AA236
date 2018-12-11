@@ -51,14 +51,133 @@ BEGIN Satellite
                 Enabled		 Yes
 
                 Source		 OnlineAGI
-                LastUpdated		 5 Dec 2018 02:14:49.000
+                LastUpdated		 11 Dec 2018 18:04:03.000
 
                 SwitchMethod		 Epoch
-                SwitchEpoch		 3 Dec 2018 01:14:43.000
+                SwitchEpoch		 4 Dec 2018 01:54:57.000
 
                 TLE		
-                1 25544U 98067A   18337.05188657  .00001556  00000-0  30846-4 0  9994
-                2 25544  51.6397 257.1993 0005156 108.3462  82.1780 15.54048676144775
+                1 25544U 98067A   18338.07982639  .00001600  00000-0  31516-4 0  9994
+                2 25544  51.6396 252.0759 0005143 111.8132  73.4184 15.54052999144939
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 4 Dec 2018 23:29:56.000
+
+                TLE		
+                1 25544U 98067A   18338.97912037  .00006223  00000-0  10144-3 0  9997
+                2 25544  51.6406 247.5960 0005099 113.1086  66.6107 15.54053511145073
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 6 Dec 2018 01:25:19.644
+
+                TLE		
+                1 25544U 98067A   18340.05925514  .00000094  00000-0  87204-5 0  9996
+                2 25544  51.6400 242.2109 0005032 116.4513 350.1806 15.54050655145244
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 6 Dec 2018 06:12:51.252
+
+                TLE		
+                1 25544U 98067A   18340.25892653  .00000084  00000-0  85658-5 0  9995
+                2 25544  51.6399 241.2158 0005060 117.3797  27.0726 15.54051003145271
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 8 Dec 2018 04:28:26.639
+
+                TLE		
+                1 25544U 98067A   18342.18641943  .00002071  00000-0  38620-4 0  9997
+                2 25544  51.6410 231.6081 0005142 122.0924  13.1058 15.54066026145577
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 8 Dec 2018 13:26:16.522
+
+                TLE		
+                1 25544U 98067A   18342.55991345  .00002138  00000-0  39633-4 0  9991
+                2 25544  51.6411 229.7449 0005234 124.1746 301.9773 15.54068453145636
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 9 Dec 2018 01:57:14.050
+
+                TLE		
+                1 25544U 98067A   18343.08141262  .00002228  00000-0  40984-4 0  9996
+                2 25544  51.6405 227.1468 0005176 126.1552 339.5400 15.54071695145719
+
+            END TwoLineElement
+
+
+            BEGIN TwoLineElement
+
+                Enabled		 Yes
+
+                Source		 OnlineAGI
+                LastUpdated		 11 Dec 2018 18:04:03.000
+
+                SwitchMethod		 Epoch
+                SwitchEpoch		 10 Dec 2018 01:16:27.609
+
+                TLE		
+                1 25544U 98067A   18344.05309733  .00002261  00000-0  41473-4 0  9994
+                2 25544  51.6403 222.3036 0005197 129.2492  16.3020 15.54076945145862
 
             END TwoLineElement
 
@@ -186,7 +305,7 @@ BEGIN Satellite
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 0
-            LaunchWindowStop		 0
+            LaunchWindowStop		 -604800
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes

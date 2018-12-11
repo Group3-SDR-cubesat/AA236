@@ -725,9 +725,9 @@ BEGIN SceneWindow
             UseLayer		 Yes
             FromName		 "Earth"
             FromRegPosAttView		 "Point"
-            FromPosition		  2.5156883988616120e+07 -3.9981929929707833e+07  7.5015546678844886e+06
-            FromOffset		  2.5156883988616120e+07 -3.9981929929707833e+07  7.5015546678844886e+06
-            FromOffsetLLR		  1.5748848355236020e-01 -1.0091779409074400e+00  4.7829874088858061e+07
+            FromPosition		  1.0987672397105254e+07 -2.6610164073394194e+07  2.8229008584372867e+07
+            FromOffset		  1.0987672397105254e+07 -2.6610164073394194e+07  2.8229008584372867e+07
+            FromOffsetLLR		  7.7557015793602735e-01 -1.1792081848180831e+00  4.0320053352837533e+07
             ToName		 "Earth"
             ToRegPosAttView		 "Point"
             ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
@@ -735,15 +735,15 @@ BEGIN SceneWindow
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		  3.8848885807858521e-03  1.8676526272006885e-01  9.8239688735348640e-01
-            ViewRad		  4.7829874088858068e+07
-            ViewQuat		  4.8485383702640528e-01 -4.3974924706640127e-02  8.2871963415271865e-02  8.6954884877016270e-01
+            UpVector		 -3.7077605409920805e-01  5.9942950388532035e-01  7.0937253088798125e-01
+            ViewRad		  4.0320053352837518e+07
+            ViewQuat		  4.9597382813554136e-01 -3.4315344090339928e-01  1.6601039290407882e-01  7.8018986615346864e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
             ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
             UseUpAxis		 Yes
             UpAxisType		 UserDefined
-            UserDefinedUpAxis		  1.1298595166295961e-01  9.1674918395391880e-03  9.9355429233643455e-01
+            UserDefinedUpAxis		 -1.7717174682587250e-01  1.7329928833258423e-01  9.6880211023205842e-01
             OverUpAxis		 No
             LockInViewDir		 No
             NoZoom		 No
@@ -751,7 +751,7 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -8.5049676831916965e-01 -5.1609798880093982e-01  1.0147961881222189e-01
+            CrossAxis		 -8.8784158427890247e-01 -4.5290102250481989e-01 -8.1350999005648406e-02
             DefaultOffset		  3.5079753500000000e+07
             BaseDefaultOffset		  6.3781370000000000e+06
         END View
